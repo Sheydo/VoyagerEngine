@@ -1,7 +1,9 @@
-#include <iostream>
+#include "Application.hpp"
 
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
+    Voyager::Application app;
+    app.run();
+
     return 0;
 }
